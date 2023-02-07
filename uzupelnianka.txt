@@ -1,12 +1,12 @@
 Klasa to zestaw pewnych funkcji/opisów opisujących inną klasę lub sama w sobie tworzyć całość.
 
-Obiekt to funkcja którą tworzymy na podstawie klasy która jest opisem/szablonem.
+Obiekt to konkretna reprezentacja którą tworzymy na podstawie klasy która jest opisem/szablonem.
 
 Zmienna to element różnego typu który przechowuje dane.
 
-Każda zmienna musi mieć określony String, int, double, var, boolean, char.
+Każda zmienna musi mieć określony typ np. String, int, double, boolean, char.
 
-Jeżeli deklarację zmiennej poprzedzimy słowem final, to jest to ostateczny typ danych
+Jeżeli deklarację zmiennej poprzedzimy słowem final, to jest to ostateczna wartość tej zmiennej
 są wywoływane przez operator new i służą do tworzenia nowych konstruktorów.
 
 Jeśli w klasie zdefiniowano chociaż jeden konstruktor to kompilator nie wygeneruje dla nas konstruktora domyślnego.
@@ -16,4 +16,4 @@ Zakładając, że istnieje klasa Car, to przy zapisie:
 	Car car1 = new Car("BMW", "M5', 2007, 2.6);
 	Car car2 = car1;
 
-car1 i car2 to dwie zmienne wskazujące na ten sam typ.
+car1 i car2 to dwie referencje wskazujące na ten sam obiekt.
